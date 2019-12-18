@@ -1,7 +1,9 @@
 .user-links {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
-  max-width: 100%;
+  padding-left: 30%;
+  padding-right: 30%;
+  justify-content: space-between;
+  align-content: center;
+  color: #37474f;
 }

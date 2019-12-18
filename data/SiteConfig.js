@@ -30,9 +30,9 @@ const config = {
       iconClassName: 'fa fa-github',
     },
     {
-      label: 'Twitter',
-      url: '#',
-      iconClassName: 'fa fa-twitter',
+      label: 'Linkedin',
+      url: 'https://www.linkedin.com/in/mjlbnu',
+      iconClassName: 'fa fa-linkedin',
     },
     {
       label: 'Email',
@@ -40,7 +40,7 @@ const config = {
       iconClassName: 'fa fa-envelope',
     },
   ],
-  copyright: 'Copyright © 2019. Marcio José Lisboa',
+  copyright: '© 2019. Marcio José Lisboa',
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff',
 };

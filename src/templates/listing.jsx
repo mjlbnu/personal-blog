@@ -10,6 +10,7 @@ import './listing.css';
 class Listing extends React.Component {
   // comentar esse método para remover a paginação
   // chamada no render: {this.renderPaging()}
+  /**
   renderPaging() {
     const { currentPageNum, pageCount } = this.props.pageContext;
     const prevPage = currentPageNum - 1 === 1 ? '/' : `/${currentPageNum - 1}/`;
@@ -35,6 +36,7 @@ class Listing extends React.Component {
       </div>
     );
   }
+  */
 
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;

@@ -4,6 +4,19 @@
   padding: 10px 5px 5px;
 }
 
+.footer button {
+  background: #1b95e0;
+  border: 0;
+  padding: 0 15px;
+  margin-left: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
 .notice-container {
   display: flex;
   flex-wrap: wrap;
@@ -22,4 +35,11 @@
 .notice-container h4 {
   text-align: center;
   margin: 0;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #37474f;
 }

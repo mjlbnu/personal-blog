@@ -9,6 +9,11 @@
   align-items: center;
 }
 
+.listing-container h1 {
+  border-bottom: 1px dotted #303030;
+  padding: 20px 12px;
+}
+
 .paging-container {
   min-width: 100%;
   display: flex;
